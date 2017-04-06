@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Jor-ELSanchez - IS183 Midterm | Login Page</title>
+        <title>Jor-ELSanchez - IS183 Midterm | Login</title>
         <link rel="stylesheet" type="text/css" href="./css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
@@ -10,7 +10,7 @@
         <header class="main-header">
             <div class="title-header">Your online electronics store.<br>Delivered direct to you.</div>
             <article class="info-header">
-                <img src="./images/gallery/mega_buy_name_final.png" alt="logo goes here">
+                <img src="./images/mega_buy_name_final.png" alt="logo goes here">
             </article>
         </header>
         <section class="main-content">
@@ -42,7 +42,7 @@
             let errorText = document.getElementById('error-text');
             console.log('username', username,'password', password);
             if(username == 'Jor-EL' && password == 'Sanchez') {
-                location.href = './home/home.html';
+                location.href = 'home.html';
             } else {
                 errorContainer.style.display = 'block';
                 errorText.style.display = 'block';

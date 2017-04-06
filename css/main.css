@@ -30,7 +30,7 @@ body {
 }
 .main-header {
     max-width:1280px;
-    background-color:rgb(255,0,0);
+    background-color:rgb(66, 134, 244);
     height:100px;
     /*width:100%;*/
     padding: 0px 15%;
@@ -70,7 +70,7 @@ body {
     max-width:1280px;
     
     height:70px;
-    background-color:rgb(251,20,20);
+    background-color:rgb(66, 134, 244);
     /*background: rgba(000,000,000,.5);*/
 }
 .main-content {
@@ -79,11 +79,11 @@ body {
     max-width: 1280px;
     position:relative;
     margin: 0 auto;
-    background-color:rgb(255,255,255);
+    background-color:rgb(97, 155, 249);
 }          
 .sidebar-left {
     float:left;
-    background-color:rgb(255,80,80);
+    background-color:rgb(66, 134, 244);
     width:14%;
     min-height:100px;
     height:100%;
@@ -91,14 +91,14 @@ body {
 }
 .sidebar-right {
     float:right;
-    background-color:rgba(255, 080, 80,.8);
+    background-color:rgba(66, 134, 244,.8);
     width:14%;
     min-height:460px;
     height:100%;
 }
 .sidebar-links {   
     margin: 5px 0px 0px 0px;
-    background-color:rgb(255,80,80);
+    background-color:rgb(66, 134, 244);
     /*padding-left:20px;*/
 }
 .sidebar-links li {
@@ -117,7 +117,7 @@ body {
     font-weight:bold;
 }
 .sidebar-links a:hover {
-    background-color:rgb(255,80,80);
+    background-color:rgb(97, 155, 249);
     text-decoration:none;
     color:#000;
 }
@@ -146,7 +146,7 @@ article.central-content {
     /*content: "";*/
     flex:1;
     flex-direction:column;
-    background-color:white;
+    background-color:rgb(97, 155, 249);
     top:0px;
     width:72%;
     /*overflow:auto;*/
@@ -273,7 +273,7 @@ div.contact-form {
     background-color:#242424;   
     margin:30px auto 120px;
     border-radius:7px;
-    background: rgba(255, 080, 80,.8);
+    background: rgba(66, 134, 244,.8);
 }
 input.contact-input {
     width:90%;
@@ -322,95 +322,3 @@ table.courses-table tr:nth-child(even) {
 table.courses-table tr:hover {
     background-color:yellow;
 }
-/*table.courses-table td, table.courses-table th {
-    background-color:red;
-}
-/*************************************menu links**************************************/
-
-/*
-			.gallery h1 {
-				color:#FFF;
-                margin: 30px 0 15px 0;
-			}
-			.gallery ul {
-				list-style-type:none;
-				text-align: center;
-				margin-top: 20px;
-			}
-			.gallery li {
-				margin-right:10px;
-				display:inline;
-			}
-			.gallery img {
-				width:125px;
-				height:100px;
-			}
-            
-            tr.subhead{
-                color:#FFF;
-            }
-*/
-            
-        /*section.one-column {
-            margin-top:30px;
-        }
-        article.main-content.one-column {
-            width:100%;
-            padding:0;
-            background-color:transparent;
-        }*/
-
-/*
-.gallery-content {
-    overflow: auto;
-    width:100%;
-    max-width: 1280px;
-    position:relative;
-    margin: 0 auto;
-       
-}*/
-
-
-
-/*
-.gallery-content {
-    /*content: "";
-    background-color:yellow;
-    top:0px;
-    width:100%;
-    max-width:1280px;
-    height:860px;
-    overflow:auto;
-    margin:0 auto;
-    
-    
-   /* padding:0px 20px 0px 20px;*
-}
-/*
-span.main-page-heading {
-    /*text-align:left;
-    /*width:86%;
-    font-weight:bolder;
-    font-size:22px;
-    margin:0% 0% 0% 0%;
-}
-/*.oval {
-  width: 400px;
-  height: 250px;
-  color: #111;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 10px;
-  float: left;
-  shape-outside: ellipse();
-  padding: 10px;
-  background-color: MediumPurple;
-  background-clip: content-box;
-}*/
-/*.gallery {
-    max-width:1280px;
-    text-align:justify;
-    
-    
-}
-*/
